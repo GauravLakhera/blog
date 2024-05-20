@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Ordering Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+  <header class="bg-white shadow">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <a href="#" class="text-lg font-semibold">FreshFood</a>
+      <div class="flex space-x-4">
+        <a href="#" class="text-gray-700">Home</a>
+        <a href="#" class="text-gray-700">Contact Us</a>
+        <a href="#" class="text-gray-700">About Us</a>
+        <a href="#" class="text-gray-700">Cart</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-white shadow mt-4">
+    <div class="container mx-auto p-4">
+      <div class="flex items-center space-x-4">
+        <input type="text" placeholder="Search" class="border border-gray-300 rounded p-2 flex-1">
+        <button class="bg-blue-500 text-white rounded p-2">Search</button>
+        <button class="bg-blue-500 text-white rounded p-2">Submit Form</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mx-auto mt-4 p-4">
+    <h2 class="text-2xl font-semibold mb-4">Hey, What's on your mind?</h2>
+    <div class="flex space-x-4 overflow-x-auto pb-4">
+      <!-- Category Items -->
+      <div class="flex-none text-center">
+        <img src="path/to/north-indian.jpg" alt="North Indian" class="w-24 h-24 rounded-full mx-auto">
+        <span>North Indian</span>
+      </div>
+      <div class="flex-none text-center">
+        <img src="path/to/momos.jpg" alt="Momos" class="w-24 h-24 rounded-full mx-auto">
+        <span>Momos</span>
+      </div>
+      <div class="flex-none text-center">
+        <img src="path/to/noodles.jpg" alt="Noodles" class="w-24 h-24 rounded-full mx-auto">
+        <span>Noodles</span>
+      </div>
+      <div class="flex-none text-center">
+        <img src="path/to/pure-veg.jpg" alt="Pure Veg" class="w-24 h-24 rounded-full mx-auto">
+        <span>Pure Veg</span>
+      </div>
+      <div class="flex-none text-center">
+        <img src="path/to/rolls.jpg" alt="Rolls" class="w-24 h-24 rounded-full mx-auto">
+        <span>Rolls</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mx-auto mt-4 p-4">
+    <h2 class="text-2xl font-semibold mb-4">Top Restaurant Chains In Rishikesh</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      <!-- Restaurant Card -->
+      <div class="bg-white rounded shadow p-4">
+        <img src="path/to/mcdonalds.jpg" alt="McDonald's" class="w-full h-40 object-cover rounded">
+        <h3 class="mt-2 font-semibold">McDonald's</h3>
+        <p class="text-gray-600">Burgers, Beverages, Cafe, ...</p>
+        <div class="mt-2 flex items-center justify-between text-gray-600">
+          <span>20-25 mins</span>
+          <span>4.4</span>
+        </div>
+      </div>
+      <!-- Repeat similar blocks for other restaurants -->
+      <!-- Example: -->
+      <div class="bg-white rounded shadow p-4">
+        <img src="path/to/dominos.jpg" alt="Domino's Pizza" class="w-full h-40 object-cover rounded">
+        <h3 class="mt-2 font-semibold">Domino's Pizza</h3>
+        <p class="text-gray-600">Pizzas, Italian, Pastas, ...</p>
+        <div class="mt-2 flex items-center justify-between text-gray-600">
+          <span>30 mins</span>
+          <span>4.2</span>
+        </div>
+      </div>
+      <!-- Add more restaurant cards as needed -->
+    </div>
+  </section>
+</body>
+</html>
